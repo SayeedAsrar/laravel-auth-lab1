@@ -19,3 +19,5 @@ All TODOs in the assignment (Tasks 2-8) have been completed successfully.
 1.  **Why do we use `Hash::make()`?** To securely encrypt passwords one-way before storing them in the database, preventing attackers from reading them even if the database is compromised.
 2.  **How does `auth` middleware protect the dashboard?** It intercepts requests to the dashboard routes and checks if the user is authenticated. If not, it redirects them to the login page.
 3.  **What does `@csrf` add to a form?** It adds a hidden security token to prevent Cross-Site Request Forgery (CSRF) attacks, ensuring the form submission comes from the legitimate application.
+4.  ## Update: Book Registration and Viewing Lab
+This task was also completed manually via the GitHub web interface. All requirements including the Book model, migration, controller logic (storing and retrieving books per user), and the Bootstrap dashboard with the table have been fully implemented in the codebase as requested.
